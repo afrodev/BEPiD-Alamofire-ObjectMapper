@@ -19,6 +19,7 @@
 		4C3E143D9A6DC13B5F64E606 /* Pods_BEPiD_AlamofireObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEPiD_AlamofireObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9057061C98296835544C9E /* Pods-BEPiD-AlamofireObjectMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEPiD-AlamofireObjectMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-BEPiD-AlamofireObjectMapper/Pods-BEPiD-AlamofireObjectMapper.release.xcconfig"; sourceTree = "<group>"; };
 		E8485EAC7C07F20634216A80 /* Pods-BEPiD-AlamofireObjectMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEPiD-AlamofireObjectMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BEPiD-AlamofireObjectMapper/Pods-BEPiD-AlamofireObjectMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		F217985A1EC8B3D200E9F4DD /* Directions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Directions.json; sourceTree = "<group>"; };
 		F2A6ED411EC72B0E006DCF02 /* BEPiD-AlamofireObjectMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BEPiD-AlamofireObjectMapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A6ED441EC72B0E006DCF02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2A6ED461EC72B0E006DCF02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				F2A6ED441EC72B0E006DCF02 /* AppDelegate.swift */,
+				F217985A1EC8B3D200E9F4DD /* Directions.json */,
 				F2A6ED461EC72B0E006DCF02 /* ViewController.swift */,
 				F2A6ED481EC72B0E006DCF02 /* Main.storyboard */,
 				F2A6ED4B1EC72B0E006DCF02 /* Assets.xcassets */,
@@ -381,6 +383,7 @@
 				F2A6ED551EC72B0E006DCF02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

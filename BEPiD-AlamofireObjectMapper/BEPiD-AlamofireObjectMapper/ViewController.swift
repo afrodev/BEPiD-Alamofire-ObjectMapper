@@ -12,6 +12,9 @@ import ObjectMapper
 import AlamofireObjectMapper
 
 
+
+
+
 class Endereco: Mappable {
     var bairro: String!
     var cep: String!
@@ -70,7 +73,8 @@ class ViewController: UIViewController {
         }
         
         // Faz um request via Alamofire usando o GET
-        let alamofireModel = Alamofire.request(url)
+        let alamofireModel = Alamofire.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil)
+
         
         // Faz a requisição para uma resposta em json
         alamofireModel.responseObject { (response: DataResponse<Endereco>) in
